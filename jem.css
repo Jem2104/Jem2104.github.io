@@ -1,0 +1,503 @@
+body{
+    color: white;
+    background-color: #2D2D2D;
+    font-family:"Courier New", Courier, monospace;
+    min-width: 790px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2D2D2D;
+    float: right;
+    min-width: 650px;
+    z-index: 99;
+}
+
+li a {
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #2D2D2D;
+    color: white;
+    text-align: center;
+    width: 15%;
+    min-width: 110px;
+    transition: .3s;
+}
+
+a:hover{
+    color: #5C5C5C;
+    transition-duration: .3s;
+}
+
+.active{
+    background-color: #424242;
+    color: white;
+}
+
+.rightcontact{
+    float: right;
+    background-color: cadetblue;
+}
+
+.rightcontact:hover{
+    color: black;
+    background-color: #2435FF;
+}
+
+.floatgone{
+    float: none;
+}
+
+.foto1{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 1000px;
+    margin-top: 39px;
+    background-image: url("../Afbeeldingen/IMG_2674.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 750px;
+}
+
+.tekst1{
+    margin-left: 8%;
+    padding-top: 23%;
+    font-size: 60px;
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 16px;
+}
+
+.tekst2{
+    
+    margin-top: 18px;
+    margin-left: 8%;
+    font-size: 30px;
+    font-family: "Courier New", Courier, monospace;
+    
+}
+
+.tekstvak1{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+        text-shadow: 2px 2px black;
+}
+ 
+.tekentje{
+    color: white;
+    transition: .3s;
+}
+
+.ding{
+    color: antiquewhite;
+    font-weight: 550;
+}
+
+.ouder1{
+    position: relative;
+}
+
+.tekstinleiding{
+    position: absolute;
+    top: 115px;
+    width: 40%;
+    padding-left: 150px;
+}
+
+.tekstinleid{
+    font-size: 100px;
+    width: 40%;
+    font-style: oblique;
+    padding-left: 150px;
+}
+
+.fotoopl{
+    right: 10%;
+    top: 5px;
+    position: absolute;
+    max-height: 300px;
+    border-radius: 10px;
+}
+
+.ouder2{
+    position: relative;
+    margin-top: 50px;
+}
+
+.tekstinleiding2{
+    position: absolute;
+    top: 115px;
+    width: 40%;
+    padding-left: 150px;
+    margin-top: 21px;
+    word-wrap: break-word;
+}
+
+.tekstinleid2{
+    font-size: 100px;
+    width: 40%;
+    font-style: oblique;
+    padding-left:150px;
+}
+
+.fotoopl2{
+    right: 5%;
+    top: 195px;
+    position: absolute;
+    max-height: 230px;
+    border-radius: 10px;
+    transform: rotate(90deg);
+}
+
+.streep{
+    margin-top: 240px;
+    width: 50%;
+    border-color:cadetblue;
+}
+
+.socrateslink{
+    color: cadetblue;
+}
+
+.tekstvak3{
+    height: 500px;
+    margin: 510px 30px 0px 30px;
+    background-color:cadetblue;
+    border-radius: 5px;
+    position: relative;
+    border: solid black;
+}
+
+.talen{
+    padding-left: 10%;
+    font-size: 100px;
+    font-style: oblique;
+    color: black;
+}
+
+.taal{
+    margin-left: 30px;
+    padding-left: 10%;
+    width: 20%;
+    overflow: hidden;
+    transition: width 1.2s;
+    margin-bottom: 60px;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    white-space: nowrap;
+    border: solid;
+    padding: 9px;
+    position: relative;
+    border-radius: 5px;
+    color: black;
+}
+
+.taal:hover{
+    width: 400px;
+    color: #424242;
+}
+
+.niveau{
+    position: absolute;
+    left: 300px;
+    text-decoration: none;
+}
+
+.opvulling{
+    border: solid;
+    width: 80px;
+}
+
+.taalfoto{
+    position: absolute;
+    right: 1%;
+    top: 30px;
+    height: 90%;
+    width: 43%;
+    background-image: url(../Afbeeldingen/talen.png);
+    background-size: cover;
+}
+
+.tekstvak4{
+    height: 400px;
+}
+
+.overig{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 100px;
+    font-style: oblique;
+    background-color:;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.editlinks{
+    margin-top: 6px;
+    width: 45%;
+    float: left;
+    margin-left: 25px;
+    word-wrap: break-word;
+}
+
+.fotorechts{
+    padding-top: 6px;
+    border-left: solid;
+    border-color: cadetblue;
+    padding-left: 2%;
+    width: 45%;
+    margin-right: 25px;
+    float: right;
+    word-wrap: break-word;
+    padding-bottom: 90px
+}
+
+.overigkop{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.overiglink{
+    color: cadetblue;
+}
+
+.werkervaringbody{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 45px;
+    font-style: oblique;
+}
+
+.ondertekstfoto{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.totaal{
+    width: fit-content;
+    margin: 20px auto;
+    height: auto;
+}
+
+.containerfoto{
+    width: calc(33% - 6px);
+    overflow:hidden;
+    height: fit-content;
+    margin:3px;
+    padding: 0;
+    display:block;
+    position:relative;
+    float:left;
+}
+
+.fotowerk{
+    width: 100%;
+    transition-duration: .3s;
+    max-width: 100%;
+    display:block;
+    overflow:hidden;
+    cursor:pointer;
+}
+
+.titlefoto{
+    position:absolute;
+    display:block;
+    cursor:pointer;
+    top: 35%;
+    display: none;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 1.6em;
+    text-shadow: 1px 5px 10px black;
+    transition-duration: .3s;
+}
+
+.textwerkfoto{
+    position:absolute;
+    top: 70%;
+    cursor:pointer;
+    max-width: 80%;
+    text-align:center;
+    left: 50%;
+    text-shadow: 1px 5px 10px black;
+    font-size: 1em;
+    display:none;
+    margin-right: -50%;
+    transition-duration: .3s;
+    transform: translate(-50%, -50%) 
+}
+
+.containerfoto:hover img{
+    transform: scale(1.2);
+  transition-duration: .3s;
+  filter: grayscale(50%);
+  opacity: .7;
+}
+
+.containerfoto:hover span{
+    color:white;
+  display: block;
+  transition-duration: .3s;
+}
+
+.videotekst{
+    text-align: center;
+    color: white;
+    margin-top: 45px;
+    font-style: oblique;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+.videoframe{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 80px;
+}
+
+.boventekstvideo{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.totaalvak{
+    margin: auto;
+    text-align: center
+}
+
+.tekstvak5{
+    margin-top: 40px;
+    position: relative;
+    height: 500px;
+}
+
+.lijnvideo{
+    width: 43%;
+    margin-bottom: 80px;
+    background-color: cadetblue;
+    border-color: cadetblue;
+    height: 2px;
+}
+
+.tekstvak5{
+    
+}
+
+.work{
+    text-align: center;
+    font-size: 100px;
+    font-style: oblique
+}
+
+.onderdeel{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.typewerk{
+    font-weight: 600;
+    color: cadetblue;
+}
+
+.periode{
+    color: cadetblue;
+    margin-bottom: 5px;
+}
+
+.eindfoto{
+    width: 100%;
+    border-radius: 5px;
+    border:solid cadetblue;
+}
+
+.naarbeneden{
+    margin-top: 80px;
+    position: relative;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.iconn{
+    margin-top: 300px;
+    z-index: 5;
+}
+
+.iconpos{
+    margin-right: 50px;
+    width: 14%;
+}
+
+.iconpos1{
+    margin-right: 50px;
+    margin-left: 20px;
+    width: 14%;
+}
+
+.fa-facebook{
+    color: #3C5A99
+}
+
+.fa-linkedin{
+    color: #0077B5;
+}
+
+.fa-youtube{
+    color: #FF0000;
+}
+
+.fa-instagram{
+    color: #d6249f;
+}
+
+.fa{
+    transition: .2s;
+}
+
+.fa:hover{
+    opacity: .7;
+}
+
+.fa-spin-hover{
+    -webkit-transition: -webkit-transform .4s ease-in-out;
+          transition:         transform .4s ease-in-out;
+}
+
+.fa-spin-hover:hover{
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.naarbeneden{
+    white-space: nowrap;
+    display: inline-block;
+}
