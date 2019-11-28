@@ -225,7 +225,7 @@ a:hover{
     top: 30px;
     height: 90%;
     width: 43%;
-    background-image: url(../Afbeeldingen/talen.png);
+    background-image: url("talen.png");
     background-size: cover;
 }
 
