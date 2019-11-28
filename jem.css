@@ -100,7 +100,7 @@ a:hover{
 }
 
 .ding{
-    color: antiquewhite;
+    color: cadetblue;
     font-weight: 550;
 }
 
@@ -132,7 +132,7 @@ a:hover{
 
 .ouder2{
     position: relative;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .tekstinleiding2{
@@ -172,7 +172,7 @@ a:hover{
 
 .tekstvak3{
     height: 500px;
-    margin: 510px 30px 0px 30px;
+    margin: 610px 30px 0px 30px;
     background-color:cadetblue;
     border-radius: 5px;
     position: relative;
@@ -231,6 +231,7 @@ a:hover{
 
 .tekstvak4{
     height: 400px;
+    margin-top: 100px;
 }
 
 .overig{
