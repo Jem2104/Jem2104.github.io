@@ -368,6 +368,9 @@ h1{
     font-style: oblique;
     font-size: 60px;
     margin-bottom: 60px;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+
 }
 
 .videoframe{
@@ -503,3 +506,88 @@ h1{
     white-space: nowrap;
     display: inline-block;
 }
+
+.containerblog{
+    width: calc(50% - 6px);
+    overflow:hidden;
+    height: fit-content;
+    margin: 3px;
+    padding: 0;
+    display:inline-block;
+    position:relative;
+    float:left;
+    margin-bottom: 5px;
+}
+
+.containerblog:hover img{
+    transform: scale(1.2);
+    transition-duration: .3s;
+    filter: grayscale(50%);
+    opacity: .7;
+}
+
+.containerblog:hover span{
+    color:cadetblue;
+  display: block;
+  transition-duration: .3s;
+}
+
+.fotoblog{
+    width: 100%;
+    height: auto;
+    transition-duration: .3s;
+    max-width: 100%;
+    display:block;
+    overflow:hidden;
+    cursor:pointer;
+}
+
+.titleblog{
+    position:absolute;
+    display:block;
+    cursor:pointer;
+    top: 35%;
+    display: block;
+    color: white;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 1.6em;
+    text-shadow: 1px 5px 10px black;
+    transition-duration: .3s;
+    text-align: center;
+}
+
+.doorblog{
+    position:absolute;
+    top: 70%;
+    cursor:pointer;
+    max-width: 80%;
+    text-align:center;
+    left: 50%;
+    text-shadow: 1px 5px 10px black;
+    font-size: 1em;
+    display:block;
+    color: white;
+    margin-right: -50%;
+    transition-duration: .3s;
+    transform: translate(-50%, -50%); 
+}
+
+.blogcontainer{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40px;
+}
+
+.blogfoto{
+    background-image: url(../Afbeeldingen/fitnessfotoblog.jpg);
+    height: 300px;
+    width: auto;
+    text-align: center;
+    background-size:contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
