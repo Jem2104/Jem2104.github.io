@@ -591,3 +591,23 @@ h1{
     background-repeat: no-repeat;
 }
 
+.vorvolcontainer{
+    margin-top: 100px;
+}
+
+.vorige{  
+    float: left;
+    margin-left: 10%;
+    color: cadetblue;
+}
+
+.vorige:hover{
+    color: #5C5C5C;
+    transition-duration: .3s;
+}
+
+.volgende{
+    float: right;
+    margin-right: 10%;
+    color: cadetblue;
+}
